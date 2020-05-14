@@ -1,0 +1,679 @@
+*
+{
+    background: #171932;
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header,main,footer
+{
+    display: block;
+}
+header {
+    width: 100%;
+    height: 170px;
+}
+header #logo{
+    background-image: url(../images/Logo.png);
+    background-size:contain;
+    position: absolute;
+    background-position: left center;
+    width: 48px;
+    height: 48px;
+    left: 16px;
+    top: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+header a span{
+    position: absolute;
+    width: 322px;
+    height: 40px;
+    left: 80px;
+    top: 20px;
+
+    font-family: Carter One, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.imagesSection img{
+    position: absolute;
+    width: 1600px;
+    height: 331px;
+    left: 0px;
+    top: 96px;
+
+    background-image: url(image.png);
+    mix-blend-mode: normal;
+}
+.NewYork
+{
+    position: absolute;
+    width: 204px;
+    height: 52px;
+    left: 16px;
+    top: 438px;
+
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.usa
+{
+    position: absolute;
+    width: 44px;
+    height: 25px;
+    left: 238px;
+    top: 458px;
+
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.Cards img
+{
+    position: absolute;
+    width: 270px;
+    height: 275px;
+    top: 508px;
+    margin-left: 16px;
+    border-radius: 5px;
+}
+.first_card
+{
+    position: fixed;
+    width: 270px;
+    height: 220px;
+    left: 16px;
+    top: 508px;
+    background-image: url(../images/cet.png);
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.second_card
+{
+    position: fixed;
+    width: 270px;
+    height: 220px;
+    left: 302px;
+    top: 508px;
+    background-image: url(../images/cet.png);
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.third_card{
+
+    position: fixed;
+    width: 270px;
+    height: 220px;
+    left: 588px;
+    top: 508px;
+    background-image: url(../images/cet.png);
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+
+
+.Rectangle6-1
+ {
+     position: fixed;
+     width: 270px;
+     height: 60px;
+     left: 16px;
+     top: 723px;
+
+     background: #9B51E0;
+     box-shadow: 0px 2px 7px rgba(255, 255, 255, 0.3);
+ }
+.Rectangle6-2
+{
+    position: fixed;
+    width: 270px;
+    height: 60px;
+    left: 302px;
+    top: 723px;
+
+    background: #9B51E0;
+    box-shadow: 0px 2px 7px rgba(255, 255, 255, 0.3);
+}
+.Rectangle6-3
+{
+    position: fixed;
+    width: 270px;
+    height: 60px;
+    left: 588px;
+    top: 723px;
+
+    background: #9B51E0;
+    box-shadow: 0px 2px 7px rgba(255, 255, 255, 0.3);
+}
+ .theAdv1
+{
+     background: #9B51E0;
+    text-decoration: none;
+    position: absolute;
+    width: 109px;
+    height: 19px;
+    left: 26px;
+    top: 744px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.theAdv2
+{
+    background: #9B51E0;
+    text-decoration: none;
+    position: absolute;
+    width: 109px;
+    height: 19px;
+    left: 312px;
+    top: 744px;
+
+    font-family: Roboto, serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+.theAdv3
+{
+    background: #9B51E0;
+    text-decoration-line: none;
+    position: absolute;
+    width: 109px;
+    height: 19px;
+    left: 598px;
+    top: 744px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.Vectora
+{
+
+    position: absolute;
+    width: 13px;
+    height: 16.4px;
+    left: 154px;
+    top: 744px;
+
+    background: #FFFFFF;
+
+}
+.Vector2a
+{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 177px;
+    top: 744px;
+
+    background: #FFFFFF;
+}
+ .Vector3a
+{
+    position: absolute;
+    width: 31px;
+    height: 19px;
+    left: 206px;
+    top: 744px;
+
+    background: #FFFFFF;
+}
+.Vector4a
+{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 257px;
+    top: 744px;
+
+    background: #87255B;
+}
+.Vectorb
+{
+
+    position: absolute;
+    width: 13px;
+    height: 16.4px;
+    left: 445.97px;
+    top: 744px;
+
+    background: #FFFFFF;
+
+}
+.Vector2b
+{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 463px;
+    top: 744px;
+
+    background: #FFFFFF;
+}
+.Vector3b
+{
+    position: absolute;
+    width: 31px;
+    height: 19px;
+    left: 492px;
+    top: 744px;
+
+    background: #FFFFFF;
+}
+.Vector4b
+{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 543px;
+    top: 744px;
+
+    background: #87255B;
+}
+.Vectorc
+{
+
+    position: absolute;
+    width: 13px;
+    height: 16.4px;
+    left: 726px;
+    top: 744px;
+
+    background: #FFFFFF;
+
+}
+.Vector2c
+{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 749px;
+    top: 744px;
+
+    background: #FFFFFF;
+}
+.Vector3c
+{
+    position: absolute;
+    width: 31px;
+    height: 19px;
+    left: 778px;
+    top: 744px;
+
+    background: #FFFFFF;
+}
+.Vector4c
+{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 829px;
+    top: 744px;
+
+    background: #87255B;
+}
+footer
+{
+
+    position: absolute;
+    width: 1602px;
+    height: 48px;
+    left: 0px;
+    top: 852px;
+
+    background: #9B51E0;
+}
+/* social media icons   */
+#twitter
+{
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+#google
+{
+    margin-top: 17px;
+    margin-left: 17px;
+}
+#facebook
+{
+    margin-top: 16px;
+    margin-left: 18px;
+}
+
+
+
+#layout2 header #logo{
+    background-image: url(../images/Logo.png);
+    background-size:contain;
+    position: absolute;
+    background-position: left center;
+    width: 48px;
+    height: 48px;
+    left: 16px;
+    top: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+#layout2 .imagesSection .small1
+{
+    position: absolute;
+    width: 255px;
+    height: 168px;
+    left: 17px;
+    top: 137px;
+    border-radius: 10px;
+}
+#layout2 .imagesSection .large
+{
+    position: absolute;
+    width: 380px;
+    height: 250px;
+    left: 292px;
+    top: 96px;
+    background: linear-gradient(0deg, rgba(23, 25, 50, 0.4), rgba(23, 25, 50, 0.4)), url(pexels-photo-165888.jpg);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+#layout2 .imagesSection .small3
+{
+    position: absolute;
+    width: 255px;
+    height: 168px;
+    left: 692px;
+    top: 137px;
+    border-radius: 10px;
+}
+#layout2 .imagesSection .small2
+{
+    position: absolute;
+    width: 255px;
+    height: 168px;
+    left: 967px;
+    top: 137px;
+    border-radius: 10px;
+}
+#layout2 .SectionsNav {
+    position: absolute;
+    width: 664px;
+    height: 33px;
+    left: 17px;
+    top: 500px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+#layout2 a
+{
+
+    text-decoration: none;
+}
+#layout2 #section2
+{
+    position: absolute;
+    width: 367px;
+    height: 132px;
+    left: 17px;
+    top: 868px;
+
+    font-family: Open Sans ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+#layout2 #section3
+{
+    position: absolute;
+    width: 367px;
+    height: 132px;
+    left: 16px;
+    top: 1130px;
+
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: -45px;
+    color: #FFFFFF;
+}
+#layout2 #section4
+{
+    position: absolute;
+    width: 367px;
+    height: 132px;
+    left: 17px;
+    top: 1401px;
+
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: -60px;
+    color: #FFFFFF;
+}
+
+#layout2 #section5
+{
+    position: absolute;
+    width: 206px;
+    height: 43px;
+    left: 15px;
+    top: 1614px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+#layout2 .section5aa
+{
+
+    position: absolute;
+    width: 367px;
+    height: 132px;
+    left: 16px;
+    top: 1673px;
+    margin-top: -1600px;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+}
+#layout2 h3
+{
+    margin-left: 16px;
+    margin-top: 45px;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#layout2 #section1 .first
+{
+    position: absolute;
+    width: 367px;
+    height: 132px;
+    left: 17px;
+    top: 525px;
+    margin-top: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+#layout2 #section1 .logo1
+{
+    background: url(../images/Logo.png) no-repeat left;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 16px;
+    top: 604px;
+    margin-top: 30px;
+    margin-left: 17px;
+
+}
+#layout2 #section1 ul li
+{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 80px;
+    margin-right: 17px;
+}
+
+#layout2 ul
+{
+    display: block;
+    color: #FFFFFF;
+}
+
+#layout2 #section1 .logo2
+{
+    background: url(../images/Logo.png) no-repeat left;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 16px;
+    top: 660px;
+    margin-top: 30px;
+    margin-left: 17px;
+
+}
+
+
+#layout2 #section1 .logo3
+{
+    background: url(../images/Logo.png) no-repeat left;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 16px;
+    top: 716px;
+    margin-left: 17px;
+    margin-top: 35px;
+
+}
+
+#layout2 .logo1a{
+
+    width: 48px;
+    height:48px;
+    border-radius: 50%;
+    display: block;
+    margin-right: 50px;
+    background-size: contain;
+}
+#layout2 .logo2a{
+
+    width: 48px;
+    height:48px;
+    border-radius: 50%;
+    display: block;
+    margin-right: 17px;
+    background-size: contain;
+}
+#layout2 .logo3a{
+
+    width: 48px;
+    height:48px;
+    border-radius: 50%;
+    display: block;
+    margin-right: 17px;
+    background-size: contain;
+}
+
+#layout2 #section1 li span{
+       position:relative;
+       left:-80px;
+       top: 30px;
+       font-family:"Open Sans";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 14px;
+       align-items: center;
+       margin-right: 17px;
+   }
+
+#layout2 #section1 li span p{
+    position: absolute;
+    width: 60px;
+    height: 14px;
+    left: 80px;
+    top: 621px;
+}
