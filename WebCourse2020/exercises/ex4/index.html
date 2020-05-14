@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+        <label>Name:<input type="text" name="fullname" placeholder="Enter your name"></label><br>
+        <label>Password *
+        <input  type="password" name="pass" placeholder="Enter your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br>
+        </label>
+
+            <span class="label-input100">Enter your email *</span>
+            <input type="text" name="email" placeholder="Enter your email"><br>
+
+
+
+
+            <span class="label-input100">Your Website</span>
+            <input  type="url" name="web" placeholder="http://yourWebsite.com"><br>
+
+
+
+            <span class="label-input100">Phone *</span>
+            <input  type="tel" name="phone" placeholder="Enter your Phone"><br>
+
+
+
+            <span class="label-input100">Coffee *</span><br>
+            <input  class="input100" id="validationDefault06" placeholder="Cup of Coffee" name="coffee" min="1" value="1"><br>
+
+
+
+
+            <span class="label-input100">Address *</span>
+            <input  type="text" name="address" placeholder="Enter your address"><br>
+
+
+
+            <span class="label-input100">what is the temperature</span>
+            <input  type="range" name="Temper" min="0" max="100"><br>
+
+
+            <span class="label-input100">Age *</span>
+            <input  type="number" name="age" placeholder="Enter your age" min="10" max="100"><br>
+
+
+            <span class="label-input100">Gender:</span><br>
+            <input   type="radio" name="gender" value="male" checked>male<br>
+            <input   type="radio" name="gender" value="famale">famale<br>
+            <input  type="radio" name="gender" value="other">other<br>
+
+
+            <span class="label-input100">what is your hobbies:<br></span>
+            <select class="input100" name="interests[]" multiple>
+                <option selected>Choose</option>
+                <option value="1">Racing</option>
+                <option value="2">Sport</option>
+                <option value="3">Coding</option>
+            </select><br>
+
+        <div class="container-contact100-form-btn">
+            <div class="wrap-contact100-form-btn">
+                <div class="contact100-form-bgbtn"></div>
+                <button class="contact100-form-btn">
+                    Submit
+                </button>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
